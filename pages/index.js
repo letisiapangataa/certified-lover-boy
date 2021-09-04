@@ -251,6 +251,12 @@ export default function Home() {
         <meta name="twitter:title" content="CERTIFIED LOVER BOY x INTERACTIVE ALBUM"/>
         <meta name="twitter:description" content="Play Certified Lover Boy by Drake on an interactive album." />
         <meta name="twitter:image" content="https://res.cloudinary.com/louiy9obu/image/upload/v1630756216/NINTCHDBPICT000676419659_w9dzi5.jpg"></meta>
+
+        <meta property="og:url"                content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+        <meta property="og:type"               content="article" />
+        <meta property="og:title"              content="CERTIFIED LOVER BOY x INTERACTIVE ALBUM" />
+        <meta property="og:description"        content="Play Certified Lover Boy by Drake on an interactive album." />
+        <meta property="og:image"              content="https://res.cloudinary.com/louiy9obu/image/upload/v1630756216/NINTCHDBPICT000676419659_w9dzi5.jpg" />
       </Head>
 
       
