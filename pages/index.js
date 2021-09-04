@@ -212,7 +212,6 @@ class Drake extends React.Component {
                 playing={this.state.playing}
                 playIcon={true}
                 controls={false}
-                light=""
                 onReady={() => console.log('onReady')}
                 onStart={this.changeColor.bind(this)}
                 onPlay={this.handlePlay}
