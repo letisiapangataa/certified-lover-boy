@@ -6,24 +6,66 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(https://res.cloudinary.com/louiy9obu/image/upload/v1630693865/bg_ghroij.png);
-  background-size: 150%;
+  background-color: #FFF;
+}
+
+
+.blackButton{
+  background-color: black;
+  color: white;
+}
+
+.whiteButton{
+  background-color: white;
+  color: black;
 }
 
 .main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 2em 0em 2em;
+    -moz-box-flex: 1;
+    flex: 1 1;
+    display: -moz-box;
+    display: flex;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
 }
+
+.ctrl {
+  padding: 1em;
+  background-color: #fff;
+}
+
+.avi {
+  padding: 3em;
+}
+.btn {
+  position: absolute;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid rgb(121 212 121 / 80%);
+    background: rgb(170 255 170 / 80%);
+    color: rgb(255 255 255);
+    font-weight: bold;
+}
+/* 
+.vid {
+  background-image: url(https://res.cloudinary.com/louiy9obu/image/upload/v1630689678/1_oywioc.png);
+  background-position: center;
+} */
 
 .footer {
   width: 100%;
-  padding: 2em;
+  padding: 0em 0em 3em;
+  display: -moz-box;
   display: flex;
+  -moz-box-pack: center;
   justify-content: center;
+  -moz-box-align: center;
   align-items: center;
   color: #d787ff4d;
 }
@@ -59,7 +101,7 @@
 
 .title {
   margin: 0;
-  line-height: 1.15;
+  padding: 0.5em;
   font-size: 4rem;
 }
 
@@ -69,7 +111,7 @@
 }
 
 .description {
-  line-height: 4.5;
+  padding: 1em 0em 2em;
   font-size: 1.3rem;
   font-weight: bold;
 }
@@ -101,7 +143,7 @@
 }
 
 .grid div {
-  margin: 0em;
+  margin: 2em;
   padding: 2em;
 }
 

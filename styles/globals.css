@@ -14,3 +14,62 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.blackButton{
+  display: none;
+}
+
+  
+.whiteButton {
+  background-color: #FFF;
+  border: 1px solid #000;
+  -webkit-box-shadow: 0.5em 0.5em #000;
+  box-shadow: 0.5em 0.5em #000;
+  color: BLACK;
+  padding: 2.5% 4.5% 2.5% 4.5%;
+  font-size: 130%;
+  font-weight: bold;
+  position: fixed;
+  bottom: 12%;
+  right: 10%;
+}
+
+.playbtn {
+  padding: 0em;
+  text-align: center;
+}
+
+.avatar {
+  width:60px;
+  margin: 2em;
+}
+
+.intro {
+  text-align: center;
+  margin-top: 2em;
+  font-family: courier;
+  color: #0000001c;
+  font-size: 0.8em;
+}
+
+.inv {
+  display: none;
+}
+
+.grid a {
+  padding: 1em;
+}
+
+.desc {
+  background-color: #FFF;
+  border: 1px solid #000;
+  -webkit-box-shadow: 0.5em 0.5em #000;
+  box-shadow: 0.5em 0.5em #000;
+  color: BLACK;
+  padding: 2.5% 4.5% 2.5% 4.5%;
+  font-size: 130%;
+  font-weight: bold;
+  position: fixed;
+  bottom: 10%;
+  left: 5%;
+}
