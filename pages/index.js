@@ -194,15 +194,10 @@ class Drake extends React.Component {
             <MyLink onClick={() => this.changeVid(20)}>
               <img class="avatar" src="https://res.cloudinary.com/louiy9obu/image/upload/v1630689678/9_xro0y3.png"></img>
             </MyLink>
-            <MyLink onClick={() => this.changeVid(21)}>
-              <img class="avatar" src="https://res.cloudinary.com/louiy9obu/image/upload/v1630689678/10_wthnsz.png"></img>
-            </MyLink>
         </div>
 
         
-     <div class="playbtn">
-          <button className={btn_class} onClick={this.handlePlayPause}>{playing ? 'PAUSE' : 'PLAY'}</button>
-      </div>
+      <button className={btn_class} onClick={this.handlePlayPause}>{playing ? 'Pause' : 'Play'}</button>
 
       <div class="inv">
         <ReactPlayer
@@ -212,6 +207,7 @@ class Drake extends React.Component {
                 playing={this.state.playing}
                 playIcon={true}
                 controls={false}
+                light=""
                 onReady={() => console.log('onReady')}
                 onStart={this.changeColor.bind(this)}
                 onPlay={this.handlePlay}
