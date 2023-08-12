@@ -1,4 +1,3 @@
-# Certified Lover Boy x Interactive Album
-## Letisia Pangata'a
+# CERTIFIED LOVER BOY x INTERACTIVE ALBUM
 
 Experimented with Vercel, React.js and Next.js.
